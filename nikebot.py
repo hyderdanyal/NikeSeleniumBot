@@ -169,6 +169,7 @@ def automating(driver, username, password, url, shoe_size):
         # except Exception as e:
         #     LOGGER.exception("Failed to click sign in button: " + str(e))
 
+
         try:
             LOGGER.info("Requesting checkout tunnel: " + NIKE_CHECKOUT_URL)
             driver.get(NIKE_CHECKOUT_URL)
